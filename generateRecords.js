@@ -1,3 +1,4 @@
+
 const { faker } = require('@faker-js/faker');
 const fs = require('fs');
 
@@ -13,7 +14,7 @@ const incidentDates = ["2024/07/16", "2024/07/17", "2024/07/18", "2024/07/19", "
 
 const imageUrls = ["https://i.imgur.com/Z8L8uwk.jpg","https://i.imgur.com/pUdINYl.jpg","https://i.imgur.com/FYZzeWo.jpg"];
 
-const neighborhoods = ["Uttara","Badda", "Gulshan"];
+const neighborhoods = ["Uttara","Badda", "Gulshan","Mohammadpur", "Motijheel", "Khilgaon","Mirpur", "Aminbazar", "Rupganj","Jatrabari", "Bashundhara","Murapara"];
 
 
 // Template strings
