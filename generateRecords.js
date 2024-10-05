@@ -66,7 +66,7 @@ function generateRecord() {
     name:name,
     father_name: fatherName,
     mother_name: motherName,
-    home_neighborhoods:homeNeighborhoods,
+    home_neighborhood:homeNeighborhoods,
     home_city: homeCity,
     home_district: homeDistrict,
     age:age,
