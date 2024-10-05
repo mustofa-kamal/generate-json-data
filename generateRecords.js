@@ -12,7 +12,16 @@ const professions = ["Student", "Teacher", "Engineer", "Doctor", "Farmer", "Work
 const incidentDates = ["2024/07/16", "2024/07/17", "2024/07/18", "2024/07/19", "2024/07/20"];
 
 
-const imageUrls = ["https://i.imgur.com/Z8L8uwk.jpg","https://i.imgur.com/pUdINYl.jpg","https://i.imgur.com/FYZzeWo.jpg"];
+const imageUrls = [
+  "https://i.imgur.com/Z8L8uwk.jpg",
+  "https://i.imgur.com/pUdINYl.jpg",
+  "https://i.imgur.com/FYZzeWo.jpg",
+  "https://i.imgur.com/yFTkgou.jpg",
+  "https://i.imgur.com/mGKYuWR.jpg",
+  "https://i.imgur.com/feSkptf.jpg",
+  "https://i.imgur.com/3zlCvFS.jpg",
+  "https://i.imgur.com/s11tkR4.jpg"
+];
 
 const neighborhoods = ["Uttara","Badda", "Gulshan","Mohammadpur", "Motijheel", "Khilgaon","Mirpur", "Aminbazar", "Rupganj","Jatrabari", "Bashundhara","Murapara"];
 
@@ -82,7 +91,7 @@ function generateRecords(count) {
 }
 
 // Generate 50 records
-const records = generateRecords(500);
+const records = generateRecords(1000);
 
 // Save records to a file
 fs.writeFile('generated_records.json', JSON.stringify(records, null, 2), (err) => {
